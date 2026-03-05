@@ -1,0 +1,466 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>شركة عمران الخليج لتوريد مواد البناء</title>
+  <link rel="stylesheet" href="styles.css?v=20260225-6" />
+</head>
+<body>
+  <header class="header">
+    <div class="header__inner">
+      <div class="header__actions">
+        <button class="icon icon--only theme-toggle" aria-label="تبديل الوضع">🌓</button>
+        <button class="icon icon--text preview-mode-toggle" type="button" data-en="Mobile Preview">نسخة الموبايل</button>
+      </div>
+
+      <form class="search" role="search">
+        <span class="search__icon">⌕</span>
+        <input type="search" placeholder="ابحث عن منتج" data-placeholder-en="Search for a product" aria-label="بحث" />
+      </form>
+
+      <div class="logo">
+        <img src="logo.png" alt="شعار شركة عمران الخليج" />
+        <div class="logo__text">
+          <div class="logo__title" data-en="Imran Alkhaleej Company">شركة عمران الخليج</div>
+          <div class="logo__subtitle" data-en="Building Materials Supply">لتوريد مواد البناء</div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <nav class="nav">
+    <div class="nav__inner">
+      <div class="nav__links">
+        <a href="#" data-en="Home">الرئيسية</a>
+        <a href="#store" data-en="Store">المتجر</a>
+        <a href="#contact" data-en="Contact Us">اتصل بنا</a>
+        <a href="#about" data-en="About Us">من نحن</a>
+      </div>
+      <div class="nav__lang">
+        <button class="lang" data-lang="en">English</button>
+        <button class="lang is-active" data-lang="ar">اللغة العربية</button>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <section class="hero" aria-label="العروض الرئيسية">
+      <div class="hero__slider" data-slider>
+        <article class="slide is-active" style="--bg:url('https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1600&q=80');">
+          <div class="slide__content">
+            <h1>سوق مواد البناء الحديثة</h1>
+            <p>كل احتياجات مشروعك في مكان واحد.</p>
+            <a class="btn" href="#store">تسوق الآن</a>
+          </div>
+        </article>
+        <article class="slide" style="--bg:url('https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1600&q=80');">
+          <div class="slide__content">
+            <h1>توريد سريع وموثوق</h1>
+            <p>خدمة احترافية لجميع مواقع العمل.</p>
+            <a class="btn" href="#contact">تواصل معنا</a>
+          </div>
+        </article>
+        <article class="slide" style="--bg:url('https://images.unsplash.com/photo-1503594384566-461fe158b4b8?auto=format&fit=crop&w=1600&q=80');">
+          <div class="slide__content">
+            <h1>أفضل تشكيلة مواد البناء</h1>
+            <p>اختيارات واسعة بجودة عالية.</p>
+            <a class="btn" href="#store">عرض الأقسام</a>
+          </div>
+        </article>
+        <article class="slide" style="--bg:url('https://images.unsplash.com/photo-1489515217757-5fd1be406fef?auto=format&fit=crop&w=1600&q=80');">
+          <div class="slide__content">
+            <h1>حلول متكاملة للمشاريع</h1>
+            <p>من الهيكل حتى التشطيب.</p>
+            <a class="btn" href="#black-structure">ابدأ الآن</a>
+          </div>
+        </article>
+        <div class="hero__dots" data-dots></div>
+      </div>
+    </section>
+
+    <section class="section" id="store" data-section="store">
+      <div class="section__head">
+        <h2 data-en="Main Categories">الاقسام الرئيسية</h2>
+      </div>
+      <div class="grid grid--cards">
+        <a class="card" href="#black-structure">
+          <div class="card__img" style="--img:url('assets/sections/black-structure.jpeg');"></div>
+          <h3 data-en="Black Structure Section">قسم الهيكل الاسود</h3>
+        </a>
+        <a class="card" href="#survey">
+          <div class="card__img" style="--img:url('assets/sections/survey.png');"></div>
+          <h3 data-en="Surveying Section">قسم المساح</h3>
+        </a>
+        <a class="card" href="#paint">
+          <div class="card__img" style="--img:url('assets/sections/paint.png');"></div>
+          <h3 data-en="Interior Paints Section">قسم الاصباغ الداخلية</h3>
+        </a>
+        <a class="card" href="#sigma">
+          <div class="card__img" style="--img:url('assets/sections/sigma.jpeg');"></div>
+          <h3 data-en="Exterior Paints & Sigma Section">قسم الاصباغ الخارجية والسيجما</h3>
+        </a>
+        <a class="card" href="#insulation">
+          <div class="card__img" style="--img:url('assets/sections/insulation.png');"></div>
+          <h3 data-en="Insulation Section">قسم العازل</h3>
+        </a>
+      </div>
+    </section>
+
+
+    <section class="section catalog-section" id="black-structure">
+      <div class="section-banner">
+        <img src="assets/sections/black-structure.jpeg" alt="قسم الهيكل الأسود" />
+      </div>
+      <div class="section__head">
+        <h2 data-en="Black Structure">الهيكل الاسود</h2>
+        <a class="section__all" href="#black-structure" data-en="View all">عرض الكل</a>
+      </div>
+      <div class="grid grid--products">
+        <div class="product" data-price="00.00 دينار كويتي" data-price-en="00.00 KWD">
+          <div class="product__img" style="--img:url('assets/products/rebar-steel.jpeg');"></div>
+          <h3>حديد</h3>
+          <button data-en="Contact Us">تواصل معنا</button>
+        </div>
+        <div class="product" data-price="00.00 دينار كويتي" data-price-en="00.00 KWD">
+          <div class="product__img" style="--img:url('assets/products/black-cement.jpeg');"></div>
+          <h3>اسمنت اسود</h3>
+          <button data-en="Contact Us">تواصل معنا</button>
+        </div>
+        <div class="product" data-price="00.00 دينار كويتي" data-price-en="00.00 KWD">
+          <div class="product__img" style="--img:url('assets/products/white-block.jpeg');"></div>
+          <h3>طابوق ابيض</h3>
+          <button data-en="Contact Us">تواصل معنا</button>
+        </div>
+        <div class="product" data-price="00.00 دينار كويتي" data-price-en="00.00 KWD">
+          <div class="product__img" style="--img:url('assets/products/black-block.png');"></div>
+          <h3>طابوق اسود</h3>
+          <button data-en="Contact Us">تواصل معنا</button>
+        </div>
+        <div class="product">
+          <div class="product__img" style="--img:url('assets/products/block-mortar.jpeg');"></div>
+          <h3>مونه طابوق</h3>
+          <button data-en="Contact Us">تواصل معنا</button>
+        </div>
+        <div class="product" data-price="00.00 دينار كويتي" data-price-en="00.00 KWD">
+          <div class="product__img" style="--img:url('assets/products/steel-mesh.jpeg');"></div>
+          <h3>شبك حديد</h3>
+          <button data-en="Contact Us">تواصل معنا</button>
+        </div>
+        <div class="product">
+          <div class="product__img" style="--img:url('assets/products/white-lintel.png');"></div>
+          <h3>عتب ابيض</h3>
+          <button data-en="Contact Us">تواصل معنا</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section catalog-section" id="survey">
+      <div class="section-banner">
+        <img src="assets/sections/survey.png" alt="قسم أغراض المساح" />
+      </div>
+      <div class="section__head">
+        <h2 data-en="Surveying Items">قسم المساح</h2>
+        <a class="section__all" href="#survey" data-en="View all">عرض الكل</a>
+      </div>
+      <div class="grid grid--products">
+        <div class="product">
+          <div class="product__img" style="--img:url('assets/products/saudi-mesh-1100.jpeg');"></div>
+          <h3>شبك سعودي 1.100 جرام</h3>
+          <button data-en="Contact Us">تواصل معنا</button>
+        </div>
+        <div class="product">
+          <div class="product__img" style="--img:url('assets/products/saudi-mesh-1100.jpeg');"></div>
+          <h3>شبك سعودي 800 جرام</h3>
+          <button data-en="Contact Us">تواصل معنا</button>
+        </div>
+        <div class="product" data-price="0.32 د.ك" data-price-en="KWD 0.32">
+          <div class="product__img" style="--img:url('assets/products/kuwaiti-mesh-1100.jpeg');"></div>
+          <h3>شبك كويتي 1.100 جرام</h3>
+          <button data-en="Contact Us">تواصل معنا</button>
+        </div>
+        <div class="product">
+          <div class="product__img" style="--img:url('assets/products/kuwaiti-mesh-800.jpeg');"></div>
+          <h3>شبك كويتي 800 جرام</h3>
+          <button data-en="Contact Us">تواصل معنا</button>
+        </div>
+        <div class="product" data-price="25.00 د.ك" data-price-en="KWD 25.00">
+          <div class="product__img" style="--img:url('assets/products/zawaya-katank.jpg');"></div>
+          <h3>زوايا كاتنك</h3>
+          <button data-en="Contact Us">تواصل معنا</button>
+        </div>
+        <div class="product" data-price="26.00 د.ك" data-price-en="KWD 26.00">
+          <div class="product__img" style="--img:url('assets/products/fawasel-katank.jpeg');"></div>
+          <h3>فواصل كاتنك</h3>
+          <button data-en="Contact Us">تواصل معنا</button>
+        </div>
+        <div class="product">
+          <div class="product__img" style="--img:url('assets/products/nihaya-katank.jpeg');"></div>
+          <h3>نهايه كاتنك</h3>
+          <button data-en="Contact Us">تواصل معنا</button>
+        </div>
+        <div class="product">
+          <div class="product__img" style="--img:url('assets/products/zawaya-expamet.jpg');"></div>
+          <h3>زوايا اكسبامت</h3>
+          <button data-en="Contact Us">تواصل معنا</button>
+        </div>
+        <div class="product">
+          <div class="product__img" style="--img:url('assets/products/fawasel-expamet.jpeg');"></div>
+          <h3>فواصل اكسبامت</h3>
+          <button data-en="Contact Us">تواصل معنا</button>
+        </div>
+        <div class="product">
+          <div class="product__img" style="--img:url('assets/products/nihaya-expamet.jpeg');"></div>
+          <h3>نهايه اكسبامت</h3>
+          <button data-en="Contact Us">تواصل معنا</button>
+        </div>
+        <div class="product" data-price="1.35 د.ك" data-price-en="KWD 1.35">
+          <div class="product__img" style="--img:url('assets/products/nail-wood.jpeg');"></div>
+          <h3>مسمار نجار خشابي</h3>
+          <button data-en="Contact Us">تواصل معنا</button>
+        </div>
+        <div class="product" data-price="2.75 د.ك" data-price-en="KWD 2.75">
+          <div class="product__img" style="--img:url('assets/products/nail-steel.jpeg');"></div>
+          <h3>مسمار فوالذ هولندر</h3>
+          <button data-en="Contact Us">تواصل معنا</button>
+        </div>
+        <div class="product" data-price="19.50 د.ك" data-price-en="KWD 19.50">
+          <div class="product__img" style="--img:url('assets/products/uae-aggregate.png');"></div>
+          <h3>سلبوخ امراتي</h3>
+          <button data-en="Contact Us">تواصل معنا</button>
+        </div>
+        <div class="product">
+          <div class="product__img" style="--img:url('assets/products/binding-wire.jpeg');"></div>
+          <h3>سيم تربيط</h3>
+          <button data-en="Contact Us">تواصل معنا</button>
+        </div>
+        <div class="product">
+          <div class="product__img" style="--img:url('assets/products/steel-mesh.jpeg');"></div>
+          <h3>شبك اخضر</h3>
+          <button data-en="Add to cart">اضف للسلة</button>
+        </div>
+        <div class="product">
+          <div class="product__img" style="--img:url('assets/products/wheelbarrow.jpeg');"></div>
+          <h3>عربانه فرنسي</h3>
+          <button data-en="Add to cart">اضف للسلة</button>
+        </div>
+        <div class="product">
+          <div class="product__img" style="--img:url('assets/products/steel-mesh.jpeg');"></div>
+          <h3>شبل حديد</h3>
+          <button data-en="Add to cart">اضف للسلة</button>
+        </div>
+        <div class="product">
+          <div class="product__img" style="--img:url('assets/products/italian-hose.jpeg');"></div>
+          <h3>هوز ايطالي</h3>
+          <button data-en="Add to cart">اضف للسلة</button>
+        </div>
+        <div class="product">
+          <div class="product__img" style="--img:url('assets/products/aluminum-level.png');"></div>
+          <h3>مستر المنيوم</h3>
+          <button data-en="Add to cart">اضف للسلة</button>
+        </div>
+        <div class="product">
+          <div class="product__img" style="--img:url('assets/products/survey-sand.jpeg');"></div>
+          <h3>رمل مساح</h3>
+          <button data-en="Add to cart">اضف للسلة</button>
+        </div>
+        <div class="product" data-price="1.00 د.ك" data-price-en="KWD 1.00">
+          <div class="product__img" style="--img:url('assets/products/survey-washer.jpeg');"></div>
+          <h3>وشر مساح</h3>
+          <button data-en="Add to cart">اضف للسلة</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section catalog-section" id="paint">
+      <div class="section-banner">
+        <img src="assets/sections/paint.png" alt="قسم الأصباغ الداخلية" />
+      </div>
+      <div class="section__head">
+        <h2 data-en="Putty & Interior Paints">الاصباغ الداخلية</h2>
+        <a class="section__all" href="#paint" data-en="View all">عرض الكل</a>
+      </div>
+      <div class="grid grid--products">
+        <div class="product">
+          <div class="product__img" style="--img:url('assets/products/jotun-putty.jpeg');"></div>
+          <h3>معجون جوتن</h3>
+          <button data-en="Add to cart">اضف للسلة</button>
+        </div>
+        <div class="product">
+          <div class="product__img" style="--img:url('assets/products/gtc-emulsion.jpeg');"></div>
+          <h3>املشن جي تي سي</h3>
+          <button data-en="Add to cart">اضف للسلة</button>
+        </div>
+        <div class="product">
+          <div class="product__img" style="--img:url('assets/products/trowel.jpeg');"></div>
+          <h3>مجحاف</h3>
+          <button data-en="Add to cart">اضف للسلة</button>
+        </div>
+        <div class="product">
+          <div class="product__img" style="--img:url('assets/products/us-knife.jpeg');"></div>
+          <h3>سكين امريكي</h3>
+          <button data-en="Add to cart">اضف للسلة</button>
+        </div>
+        <div class="product">
+          <div class="product__img" style="--img:url('assets/products/brush.jpeg');"></div>
+          <h3>فرشه</h3>
+          <button data-en="Add to cart">اضف للسلة</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section catalog-section" id="insulation">
+      <div class="section-banner">
+        <img src="assets/sections/insulation.png" alt="قسم العازل" />
+      </div>
+      <div class="section__head">
+        <h2 data-en="Insulation & Specialty Materials">قسم العازل</h2>
+        <a class="section__all" href="#insulation" data-en="View all">عرض الكل</a>
+      </div>
+      <div class="grid grid--products">
+        <div class="product">
+          <div class="product__img" style="--img:url('assets/products/gulf-insulation.jpeg');"></div>
+          <h3>عازل الخليج</h3>
+          <button data-en="Add to cart">اضف للسلة</button>
+        </div>
+        <div class="product">
+          <div class="product__img" style="--img:url('assets/products/saudi-insulation.jpeg');"></div>
+          <h3>عازل سعودي</h3>
+          <button data-en="Add to cart">اضف للسلة</button>
+        </div>
+        <div class="product">
+          <div class="product__img" style="--img:url('assets/products/kuwaiti-insulation.jpeg');"></div>
+          <h3>عازل كويتي</h3>
+          <button data-en="Add to cart">اضف للسلة</button>
+        </div>
+        <div class="product">
+          <div class="product__img" style="--img:url('assets/products/cap-seal.jpeg');"></div>
+          <h3>زفته كاب سيل</h3>
+          <button data-en="Add to cart">اضف للسلة</button>
+        </div>
+        <div class="product">
+          <div class="product__img" style="--img:url('assets/products/cap-primer.jpeg');"></div>
+          <h3>زفته كاب بريمر</h3>
+          <button data-en="Add to cart">اضف للسلة</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section catalog-section" id="sigma">
+      <div class="section-banner">
+        <img src="assets/sections/sigma.jpeg" alt="قسم الأصباغ الخارجية والسيجما" />
+      </div>
+      <div class="section__head">
+        <h2 data-en="Sigma Items & Exterior Paints">الاصباغ الخارجية والسيجما</h2>
+        <a class="section__all" href="#sigma" data-en="View all">عرض الكل</a>
+      </div>
+      <div class="grid grid--products">
+        <div class="product">
+          <div class="product__img" style="--img:url('assets/products/sigma-hembel.jpeg');"></div>
+          <h3>سيجما همبل</h3>
+          <button data-en="Add to cart">اضف للسلة</button>
+        </div>
+        <div class="product">
+          <div class="product__img" style="--img:url('assets/products/sigma-saudi.jpeg');"></div>
+          <h3>سيجما سعودي</h3>
+          <button data-en="Add to cart">اضف للسلة</button>
+        </div>
+        <div class="product">
+          <div class="product__img" style="--img:url('assets/products/sigma-kpc.jpeg');"></div>
+          <h3>سيجما كي بي سي</h3>
+          <button data-en="Add to cart">اضف للسلة</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="section__head">
+        <h2 data-en="Contact & Addresses">التواصل والعناوين</h2>
+      </div>
+      <div class="contact">
+        <div class="contact__card">
+          <h3 data-en="Imran Alkhaleej Company for Building Materials Supply">شركة عمران الخليج لتوريد مواد البناء</h3>
+          <p class="contact__phones">
+            <a class="whatsapp-link" href="https://api.whatsapp.com/send?phone=96566871081" aria-label="واتساب 66871081">
+              <span class="whatsapp-icon" aria-hidden="true">WA</span>
+              66871081
+            </a>
+            <span class="contact__sep">-</span>
+            <a class="whatsapp-link" href="https://api.whatsapp.com/send?phone=96560913767" aria-label="واتساب 60913767">
+              <span class="whatsapp-icon" aria-hidden="true">WA</span>
+              60913767
+            </a>
+          </p>
+          <p data-en="Address: Hawalli, Al-Othman St, Satellite Complex - 1st Floor, Office 7">العنوان: حولي شارع العثمان مجمع الستالايت - دور الاول مكتب رقم ٧</p>
+          <a class="btn btn--outline" href="https://maps.google.com/?q=29.336498,48.016396" data-en="Office location on map">موقع المكتب على الخريطة</a>
+        </div>
+        <div class="contact__card">
+          <h3 data-en="Warehouse Address">عنوان المخزن</h3>
+          <p data-en="Amghara Gate 1, Hawta 87">امغرة باب ١. حوطه ٨٧</p>
+          <a class="btn btn--outline" href="https://maps.google.com/?q=29.276554,47.723991" data-en="Warehouse location">لوكيشن المخزن</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="section__head">
+        <h2 data-en="About Us">من نحن</h2>
+      </div>
+      <p class="about" data-en="Imran Alkhaleej Company provides integrated solutions for construction and finishing projects, with a wide selection and reliable supply service across Kuwait.">
+        شركة عمران الخليج لتوريد مواد البناء توفر حلولاً متكاملة لمشاريع البناء والتشطيب،
+        مع تشكيلة واسعة وخدمة توريد موثوقة لجميع مناطق الكويت.
+      </p>
+    </section>
+  </main>
+
+  <nav class="mobile-nav" aria-label="تنقل الموبايل">
+    <a href="#" data-en="Home">الرئيسية</a>
+    <a href="#store" data-en="Store">المتجر</a>
+    <a href="#contact" data-en="Contact">اتصال</a>
+    <a href="#about" data-en="About">من نحن</a>
+  </nav>
+
+  <footer class="footer">
+    <div class="footer__inner">
+      <div>
+        <h3 data-en="Imran Alkhaleej Company for Building Materials Supply">شركة عمران الخليج لتوريد مواد البناء</h3>
+        <p data-en="Phone: 66871081 - 60913767">
+          هاتف:
+          <a class="whatsapp-link" href="https://api.whatsapp.com/send?phone=96566871081" aria-label="واتساب 66871081">
+            <span class="whatsapp-icon" aria-hidden="true">WA</span>
+            66871081
+          </a>
+          <span class="contact__sep">-</span>
+          <a class="whatsapp-link" href="https://api.whatsapp.com/send?phone=96560913767" aria-label="واتساب 60913767">
+            <span class="whatsapp-icon" aria-hidden="true">WA</span>
+            60913767
+          </a>
+        </p>
+        <p data-en="Hawalli, Al-Othman St, Satellite Complex - 1st Floor, Office 7">حولي شارع العثمان مجمع الستالايت - دور الاول مكتب رقم ٧</p>
+      </div>
+      <div>
+        <h4 data-en="Sections">الأقسام</h4>
+        <ul>
+          <li><a href="#black-structure" data-en="Black Structure">الهيكل الاسود</a></li>
+          <li><a href="#survey" data-en="Surveying Items">قسم المساح</a></li>
+          <li><a href="#insulation" data-en="Insulation & Specialty Materials">قسم العازل</a></li>
+          <li><a href="#paint" data-en="Putty & Interior Paints">الاصباغ الداخلية</a></li>
+          <li><a href="#sigma" data-en="Sigma Items & Exterior Paints">الاصباغ الخارجية والسيجما</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 data-en="Quick Links">روابط سريعة</h4>
+        <ul>
+          <li><a href="#contact" data-en="Contact Us">اتصل بنا</a></li>
+          <li><a href="#about" data-en="About Us">من نحن</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom" data-en="All rights reserved © 2026">جميع الحقوق محفوظة © 2026</div>
+  </footer>
+
+  <script src="odoo-config.js?v=20260225-6"></script>
+  <script src="app.js?v=20260225-6"></script>
+  <script src="template-editor.js?v=20260225-6"></script>
+</body>
+</html>
